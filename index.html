@@ -3,40 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Nora's Weather App</title>
   </head>
 
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
 
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 14:49, scattered clouds
-          <br />
-          Humidity: 66%, Wind: 3.13km/h
-        </p>
-      </div>
-      <div>❓ 12°C</div>
-    </main>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 14:49, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div>❓ 12°C</div>
+      </main>
 
-    <footer>
-      Coded by
-      <a href="https://github.com/nponader" target="_blank">Nora Ponader</a>, is
-      open sourced
-      <a href="https://github.com/nponader/Reworked-Weather-App" target="_blank"
-        >on GitHub</a
-      >
-      and hosted
-      <a href="https://shecodes-weather-forecast.netlify.app/" target="_blank"
-        >on Netflify</a
-      >
-    </footer>
+      <footer>
+        Coded by
+        <a href="https://github.com/nponader" target="_blank">Nora Ponader</a>,
+        is open sourced
+        <a
+          href="https://github.com/nponader/Reworked-Weather-App"
+          target="_blank"
+          >on GitHub</a
+        >
+        and hosted
+        <a href="https://shecodes-weather-forecast.netlify.app/" target="_blank"
+          >on Netflify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
