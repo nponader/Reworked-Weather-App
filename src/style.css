@@ -94,3 +94,22 @@ a {
   width: 112px;
   height: 112px;
 }
+
+.weather-forecast {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.weather-forecast-temperatures {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.weather-forecast-temp-min {
+  color: #84949e;
+}
