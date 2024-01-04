@@ -91,6 +91,6 @@ a {
 }
 
 .weather-app-icon {
-  font-size: 40px;
-  margin-top: 20px;
+  width: 112px;
+  height: 112px;
 }
